@@ -28,7 +28,7 @@ public class main extends JavaPlugin {
 	}
 	
 	public void handler() {
-		setExecutor("join", new join());
+		this.setExecutor("join", new join());
 	}
 	
 	public void setExecutor(String command, CommandExecutor ce) {
